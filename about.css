@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir+Next&family=Oxygen:wght@400;700&display=swap');
+body {
+background: url('file:///Users/syafiqfaizal/Desktop/TerraSapient/BackgroundPicture.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  -background-attachment: fixed;
+  display: grid;
+  align-items: center;
+  height: 130vh;
+
+}
+
+/*********************************** <top contents> ***************************/
+
+.header {
+  background-color: rgba(255, 255, 255, .35);    /* transparent header */
+  text-align: center;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.topnav {               /* styling navigation bar */
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #986A0E;  /* brown color for nav bar */
+}
+
+.topnav a {           /* styling the contents of nav */
+  float: right;
+  display: block;
+  color: white;     /* font color of links (homepage, programs..) */
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {     /* styling nav bar for what happens when mouse hover */
+  background-color: #EAE9DD;
+  border-radius: 13px;
+  color: black;
+}
+
+.topnav input[type=text] {    /* styling the search bar */
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 20px;
+  width:250px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, .35);
+}
+
+.topnav input:hover {       /* styling search bar for what happens when mouse hover */
+  background-color: #EAE9DD;
+  border-radius: 13px;
+  color: black;
+}
+
+::placeholder {   /* styling the font of the placeholder "Search.."" */
+  color: white;
+  opacity: 0.88;
+  font-family: 'Avenir Next', sans-serif;
+}
+/******************************************************************************/
+
+
+/*********************************** <main contents> **************************/
+.title{   /*TerraSapient*/
+  font-family: 'Oxygen', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px grey;
+}
+
+.container{
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  -background: #CDBE7B;
+  background-color: rgba(85, 107, 47, .35);
+  border-radius: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.center {
+  width: 1200px;
+  height: 700px;
+  border-radius: 20px;
+  padding-right: 25px;
+
+}
+
+.brandname{   /*About Us*/
+  font-family: 'Oxygen', sans-serif;
+  font-size: 65px;
+  text-align: center;
+  padding: 60px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px grey;
+}
+
+#msg {    /*text*/
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+/******************************************************************************/

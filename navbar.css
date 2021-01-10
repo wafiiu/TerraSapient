@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir+Next&family=Oxygen:wght@400;700&display=swap');
+
+body {
+  background: url('file:///Users/syafiqfaizal/Desktop/TerraSapient/BackgroundPicture.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: grid;
+  align-items: center;
+  height: 200vh;
+}
+
+/*********************************** <top contents> ***********************************/
+
+.header {
+  background-color: rgba(255, 255, 255, .35);    /* transparent header */
+  text-align: center;
+  padding: 20px;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.topnav {               /* styling navigation bar */
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #986A0E;  /* brown color for nav bar */
+}
+
+.topnav a {           /* styling the contents of nav */
+  float: right;
+  display: block;
+  color: white;     /* font color of links (homepage, programs..) */
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {     /* styling nav bar for what happens when mouse hover */
+  background-color: #EAE9DD;
+  border-radius: 13px;
+  color: black;
+}
+
+.topnav input[type=text] {    /* styling the search bar */
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 20px;
+  width:250px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, .35);
+}
+
+.topnav input:hover {       /* styling search bar for what happens when mouse hover */
+  background-color: #EAE9DD;
+  border-radius: 13px;
+  color: black;
+}
+
+::placeholder {   /* styling the font of the placeholder "Search.."" */
+  color: white;
+  opacity: 0.88;
+  font-family: 'Avenir Next', sans-serif;
+}
+/*********************************** </top contents> ***********************************/
