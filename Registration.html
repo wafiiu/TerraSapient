@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Registration.css">
+
+
+  </head>
+  <body>
+    <div class="header">
+            <div class="topnav">
+                <input type="text" placeholder="Search..">
+                <a href="ContactUs.html">Contact Us</a>
+                <a href="About.html">About Us</a>
+                <a href="Programs.html">Programs</a>
+                <a href="index.html">Homepage</a>
+            </div>
+          </div>
+
+
+
+<div name="wrapper" class= "wrapper">
+      <div class="title">
+        Registration Form
+      </div>
+      <form class="register" method="post">
+
+
+         <div class="inputfield">
+            <label for="fname">First Name</label>
+            <input id="fname1" type="text" name="fname" class="input">
+         </div>
+
+          <div class="inputfield">
+            <label for="lname">Last Name</label>
+            <input id="lname1" type="text" name="lname" class="input">
+         </div>
+
+         <div class="inputfield">
+            <label for="age">Age</label>
+            <input id="age" type="text" name="age" class="input">
+         </div>
+
+          <div class="inputfield">
+            <label for="gender">Gender</label>
+            <div class="custom_select">
+              <select>
+                <option value="">Select</option>
+                <option name="male" value="male">Male</option>
+                <option name="female" value="female">Female</option>
+              </select>
+            </div>
+         </div>
+
+          <div class="inputfield">
+            <label for="eadd">Email Address</label>
+            <input id="eadd" type="text" name="eadd" class="input">
+         </div>
+
+        <div class="inputfield">
+            <label for="pnum">Phone Number</label>
+            <input id="pnum" type="text" name="pnum" class="input">
+
+         </div>
+
+        <div class="inputfield">
+            <label for="add">Address</label>
+            <textarea id="add" name="add" class="textarea"></textarea>
+         </div>
+        <div class="inputfield">
+            <label for="pcode">Postal Code</label>
+            <input id="pcode" name="pcode" type="text" class="input">
+         </div>
+
+         <div class="inputfield">
+             <label for="city">City</label>
+             <input id="city" name="city" type="text" class="input">
+          </div>
+
+         <div class="inputfield">
+           <label for="state">State</label>
+           <div class="custom_select">
+             <select>
+               <option value="">Select</option>
+               <option value="Johor">Johor</option>
+               <option value="Kedah">Kedah</option>
+               <option value="Kelantan">Kelanta</option>
+               <option value="W.P.Kuala Lumpur">W.P.Kuala Lumpur</option>
+               <option value="Melaka">Melaka</option>
+               <option value="N. Sembilan">N. Sembilan</option>
+               <option value="Pahang">Pahang</option>
+               <option value="P. Pinang">P. Pinang</option>
+               <option value="Perak">Perak</option>
+               <option value="Perlis">Perlis</option>
+               <option value="Sabah">Sabah</option>
+               <option value="Sarawak">Sarawak</option>
+               <option value="Selangor">Selangor</option>
+               <option value="Terengganu">Terengganu</option>
+             </select>
+           </div>
+</div>
+
+        <div class="inputfield terms">
+            <label class="check">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <p>Agreed to terms and conditions</p>
+         </div>
+        <div class="inputfield">
+          <button id="button1" type="submit" value="Register" class="btn">Register</button>
+        </div>
+
+      </form>
+  </div>
+  <script type="text/javascript">
+      var btn = document.getElementById("button1");
+      const first = document.getElementById("fname1");
+      const second = document.getElementById("age");
+      const third = document.getElementById("eadd");
+      const fourth = document.getElementById("pnum");
+      const fifth = document.getElementById("pcode");
+      const sixth = document.getElementById("city");
+      const seventh = document.getElementById("add");
+
+
+        btn.addEventListener("click", function(e){
+
+          if(first.value==""||second.value==""||third.value==""||fourth.value==""||fifth.value==""||sixth.value==""||seventh.value=="")
+            //conditions
+        {
+              console.log("if");
+                e.preventDefault();
+                alert( "Please provide your name!");
+          }
+          else {
+
+                   console.log("else"+first.value);
+                   window.location.href = "Signupsuccess.html";
+                   e.preventDefault();
+          }
+
+        });
+      </script>
+
+  </body>
+</html>
