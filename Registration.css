@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Avenir+Next&family=Oxygen:wght@400;700&display=swap');
 
+body {
+  background: url('BackgroundPicture.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: grid;
+  align-items: center;
+  height: 200vh;
+}
 
 *{
   margin: 0;
