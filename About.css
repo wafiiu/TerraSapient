@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir+Next&family=Oxygen:wght@400;700&display=swap');
+body {
+background: url('BackgroundPicture.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  align-items: center;
+  height: 130vh;
+}
+
+/*********************************** <main contents> **************************/
+.title{   /*TerraSapient*/
+  font-family: 'Oxygen', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px grey;
+}
+
+.container{
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  -background: #CDBE7B;
+  background-color: rgba(85, 107, 47, .35);
+  border-radius: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.center {
+  width: 1200px;
+  height: 700px;
+  border-radius: 20px;
+  padding-right: 25px;
+
+}
+
+.brandname{   /*About Us*/
+  font-family: 'Oxygen', sans-serif;
+  font-size: 65px;
+  text-align: center;
+  padding: 60px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px grey;
+}
+
+#msg {    /*text*/
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+/******************************************************************************/
