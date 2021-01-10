@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Newsletter Sign Up</title>
+    <style>
+
+      .containernewsletter, form{
+        background-color: rgba(85, 107, 47, .30);
+        justify-content: center;
+        width: 900px;
+        height: 600px;
+        margin: auto;
+        border-radius: 20px;
+      }
+
+      .titlenewsletter {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        padding: 55px;
+        color: #FFFFFF;
+        text-shadow: 2px 2px 8px grey;
+      }
+
+      .submitbutton button {
+        padding: 25px;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        border-radius: 80px;
+        width: 200px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
+        background-color: rgba(255, 255, 255, .3);
+        border: none;
+      }
+
+      .submitbutton button:hover {
+        background-color: #917227;
+        color: white;
+      }
+
+      .containernewsletter input[type=text] {
+        width: 450px;
+        padding: 15px;
+        margin: 8px 0;
+        background: rgba(205, 133, 63, 0.4);
+        font-family: 'Oxygen', sans-serif;
+        font-size: 18px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
+      }
+
+      .containernewsletter label {
+        margin: auto;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+
+
+    </style>
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="Navbar.css">
+
+  </head>
+
+  <body class="">
+
+        <div class="header">
+            <div class="topnav">
+                <input type="text" placeholder="Search..">
+                <a href="ContactUs.html">Contact Us</a>
+                <a href="About.html">About Us</a>
+                <a href="Programs.html">Programs</a>
+                <a href="index.html">Homepage</a>
+            </div>
+
+        </div>
+
+
+    <div class="container">
+      <form action="Signupsuccess.html" method="post">
+          <div class="containernewsletter">
+              <h1 class="titlenewsletter">Subscribe To Our Newsletter!</h1>
+              <br><br><br>
+              <input type="text" placeholder="Name" name="name" style="font-family:Gilroy" required>
+              <br>
+              <input type="text" placeholder="Email Address" name="mail" style="font-family:Gilroy" required>
+              <br><br>
+              <label><input type="checkbox" checked="checked" name="subscribe" style="font-size: 30px">Daily Newsletter</label>
+              <label><input type="checkbox" checked="checked" name="subscribe" style="font-size: 30px">Weekly Newsletter</label>
+              <br><br><br>
+              <div class="submitbutton">
+                 <button type="submit" name="button">Submit</button>
+              </div>
+
+          </div>
+
+
+      </form>
+
+    </div>
+
+
+
+   </body>
+</html>

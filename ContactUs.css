@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir+Next&family=Oxygen:wght@400;700&display=swap');
+
+body {
+  background: url('BackgroundPicture.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: center;
+  align-items: center;
+  height: 120vh;
+  width: fit-content;
+}
+
+.container{       /* container for the whole content : left&right aligned, brandname, msg */
+  width: 1300px;
+  height: 620px;
+  text-align: center;
+  items-align : center,center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(85, 107, 47, .35);
+  padding: 10px;
+  border-radius: 30px;
+}
+.left {             /* Left aligned */
+  width: 40% inherit ;
+  float: left;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 21px;
+  padding-top: 50px;
+}
+.right{             /* Right aligned */
+  width: 40% auto ;
+  float: right;
+  margin : auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+.brandname1{
+  font-family: "Oxygen", serif;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: auto;
+  padding: 20px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px grey;
+}
+.brandname2{
+  font-family: "Oxygen",serif;
+  text-align: center;
+  margin: auto;
+  margin-top: auto;
+  padding: 10px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px grey;
+}
+p {
+  font-family: "Oxygen",serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+  text-shadow:3px 3px 8px grey;
+  -background: rgba(255, 255, 255, .35)
+}
+.submit {
+padding: 8px;
+font-family: "Oxygen", serif;
+margin = center;
+font-size: 30px;
+color: #042338;
+border-radius: 50px;
+width: 200px;
+background-color: #FFFFFF;
+border: none;
+box-shadow: 0 0 5px #333;
+}
+
+input[type=submit]:hover {     /* styling button for what happens when mouse hover */
+  background-color: #986A0E;
+  color: white;
+}
+.TextInput {
+width: 450px;
+color: #042338;
+font-family: "Oxygen",serif;
+font-size: 21px;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+padding: 10px;
+background: rgba(255, 255, 255, .35);
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 5px #333;
+}
+.TextArea {
+left: 93px;
+top: 402px;
+width: 450px;
+height: 124px;
+color: #042338;
+font-family: "Oxygen",serif;
+font-size: 21px;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+line-height: 1px;
+background: rgba(255, 255, 255, .35);
+border: none;
+border-radius: 20px;
+box-shadow: 0 0 5px #333;
+}

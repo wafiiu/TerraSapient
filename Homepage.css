@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir+Next&family=Oxygen:wght@400;700&display=swap');
+
+body {
+  background: url('BackgroundPicture.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: grid;
+  align-items: center;
+  height: 200vh;
+}
+
+
+/*********************************** <main contents> ***********************************/
+
+.container{       /* container for the whole content : left&right aligned, brandname, msg */
+  width: 1380px;
+  height: 1200px;
+  text-align: center;
+  margin: auto;
+  -background: #CDBE7B;
+  background-color: rgba(255, 255, 255, .10);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.brandname{             /* TerraSapient */
+  font-family: 'Oxygen', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  -margin-right: 30px;
+  -margin-left: 8px;
+  margin-top: auto;
+  padding: 55px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px grey;
+}
+
+#msg {                  /* A dedicated website.. */
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px;
+  color: #FFFFFF;
+  padding: 10px;
+  padding-left: 30px;
+  margin: auto;
+  max-width: 330px;
+  max-height: 800px;
+  text-align: center;
+  text-shadow: 3px 3px 8px black;
+}
+
+.left {             /* Left aligned */
+  width: 300px;
+  -background: green;
+  background: rgba(0,100,0, 0.7);  /* just to show */
+  float: left;
+  margin-left: 2px;
+  margin-right: 20px;
+  padding-left: 25px;
+  padding-right: 21px;
+  padding-top: 25px;
+  border-radius: 20px;
+}
+
+.center {             /* container that includes brandname & msg */
+  -background: green; /* just to show */
+  -background-color: rgba(255, 255, 255, .15);
+  float: left;
+  width: 500px;
+  height: 970px;
+  margin: auto;
+  margin-left: 65px;
+  margin-right: 40px;
+  border-radius: 20px;
+  padding-right: 25px;
+
+}
+.right{             /* Right aligned */
+  width: 300px;
+  background: rgba(107, 142, 35, 0.7);
+  float: right;
+  margin-right: 2px;
+  margin-left: 10px;
+  padding-left: 25px;
+  padding-right: 21px;
+  padding-top: 25px;
+  border-radius: 20px;
+}
+/*********************************** </main contents> ***********************************/
+
+
+
+/*********************************** <footer contents> ***********************************/
+footer {
+  width: 500px;
+  height: 150px;
+  float: left;
+  margin-left: 80px;
+  -background: green;    /* just to show */
+  color: #ffffff;
+  border-radius: 20px;
+  padding-top: 20px;
+
+}
+
+footer a {       /* styling the Sign Me Up button */
+  padding: 25px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 35px;
+  color: white;
+  border-radius: 80px;
+  width: 300px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .2);
+  border: none;
+  text-decoration: none;
+
+
+}
+
+.thebutton a:hover {     /* styling button for what happens when mouse hover */
+  background-color: #917227;
+  color: white;
+}
+
+footer p {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+
+}
+/*********************************** </footer contents> ***********************************/
+
+
+/******************************* news 1 ****************************************/
+.news1 {
+  width: 17rem;
+  height: 18rem;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+.news1 a,p {           /* styling the news1 link */
+  float: center;
+  display: block;
+  color: white;
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.news1 a:hover{      /* styling news1 for what happens when mouse hover */
+  background-color: #917227;
+  color: white;
+  padding: 10px;
+  border-radius: 13px;
+}
+/******************************* news 2 ****************************************/
+.news2 {
+  width: 17rem;
+  height: 18rem;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+.news2 a,p {           /* styling the news2 link */
+  float: center;
+  display: block;
+  color: white;
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.news2 a:hover{      /* styling news2 for what happens when mouse hover */
+  background-color: #917227;
+  color: white;
+  padding: 10px;
+  border-radius: 13px;
+}
+/******************************* news 3 ****************************************/
+.news3 {
+  width: 17rem;
+  height: 18rem;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+.news3 a,p {           /* styling the news3 link */
+  float: center;
+  display: block;
+  color: white;
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.news3 a:hover{      /* styling news3 for what happens when mouse hover */
+  background-color: #917227;
+  color: white;
+  padding: 10px;
+  border-radius: 13px;
+}
+/************************************** story 1 ************************************/
+.story1 {
+  width: 17rem;
+  height: 18rem;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+.story1 a,p {           /* styling the story1 link */
+  float: center;
+  display: block;
+  color: white;
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.story1 a:hover{      /* styling story1 for what happens when mouse hover */
+  background-color: #917227;
+  color: white;
+  padding: 10px;
+  border-radius: 13px;
+}
+/************************************** story 2 ************************************/
+.story2 {
+  width: 17rem;
+  height: 18rem;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+.story2 a,p {           /* styling the story2 link */
+  float: center;
+  display: block;
+  color: white;
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.story2 a:hover{      /* styling story2 for what happens when mouse hover */
+  background-color: #917227;
+  color: white;
+  padding: 10px;
+  border-radius: 13px;
+}
+/************************************** story 3 ************************************/
+.story3 {
+  width: 17rem;
+  height: 18rem;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+
+.story3 a,p {           /* styling the story2 link */
+  float: center;
+  display: block;
+  color: white;
+  font-family: 'Avenir Next', sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.story3 a:hover{      /* styling story2 for what happens when mouse hover */
+  background-color: #917227;
+  color: white;
+  padding: 10px;
+  border-radius: 13px;
+}
+/************************************** sign me up ************************************/
