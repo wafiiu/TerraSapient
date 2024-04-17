@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Avenir+Next&family=Oxygen:wght@400;700&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+}
 body {
   background: url('BackgroundPicture.jpeg') no-repeat;
   background-size: cover;
@@ -8,8 +12,6 @@ body {
   align-items: center;
   height: 155vh;
 }
-
-
 
 .wrapper{
   max-width: 850px;
@@ -145,7 +147,7 @@ body {
   display: block;
 }
 
-.wrapper form .inputfield .btn{
+#button1{
   width: 100%;
    padding: 8px 10px;
   font-size: 22px;
@@ -156,17 +158,13 @@ body {
   cursor: pointer;
   border-radius: 3px;
   outline: none;
-}
-
-.wrapper form .inputfield .btn:hover{
-  background: #986A0E;
-}
-
-.wrapper form .inputfield:last-child{
   margin-bottom: 50px;
   margin-top: 25px;
 }
 
+#button1:hover{
+  background: #986A0E;
+}
 
   .wrapper form .inputfield label{
     margin-bottom: 5px;
@@ -174,4 +172,3 @@ body {
   .wrapper form .inputfield.terms{
     flex-direction: row;
   }
-}
